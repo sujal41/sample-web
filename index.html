@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIF</title>
     <link rel="stylesheet" href="style.css">
     <!-- Add icon library -->
@@ -8,56 +10,43 @@
 
 </head>
 <body>
-    <div class="main">
-        <div class="head">
-            <div class="navbar">
-                <div class="icon"></div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="whatwedo.html">What we do</a></li>
-                        <li><a href="ourinnovations.html">Our Innovations</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                    </ul>
-                </div>
-                <div class="joinus">
-                    <a href="aboutus.html">Join us</a>
-                </div>
-            </div>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.svg" alt="" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="whatwedo.html">What we do</a></li>
+                    <li><a href="ourinnovations.html">Our Innovations</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li id="join"><a href="#">Join us</a></li>
+                </ul>
+                
+            </nav>
+            <img src="menu.png" class="menu-icon" onclick="togglemenu()">
         </div>
-        <div class="homeimage">
-            <img src="image2.png"  class="img2" alt="">
-            <div class="text1">We Believe in</div>
-            <div class="text2">Innovation</div>
-            <div class="text3">and</div>
-            <div class="text4">Creation</div>
-            <a href="aboutus.html"><input type="button" class="joinus2" value="Join us"></a>
-            <div class="sampledots">. . . . . . . .</div>
-            <div class="leftarrow"><a href="#">←</a></div>
-            <div class="rightarrow"><a href="#">→</a></div>
+    </div>
+    <div class="himg">
+        <img src="image2.png" alt="" class="homeimg">
+    </div>
+    <div class="or">Reach</div>
+    <div class="orangeboxes">
+        <div class="orangebox1">
+            <p>2<br>States</p>
         </div>
-        <div class="our">Our</div>            
-        <div class="reach">Reach</div>            
-        <div class="orangeboxes">
-            <div class="orangebox1">
-                <p class="p11">2</p>
-                <p class="p12">States</p>
-            </div>
-            <div class="orangebox2">
-                <p class="p21">19</p>
-                <p class="p22">Schools</p>
-            </div>
-            <div class="orangebox3">
-                <p class="p31">12k+</p>
-                <p class="p32">Students</p>
-            </div>
-            <div class="orangebox4">
-                <p class="p41">80+</p>
-                <p class="p42">Teachers</p>
-            </div>
+        <div class="orangebox2">
+            <p>19<br>Schools</p>
         </div>
-        <div class="wtcu">
-            <div class="whytochooseus">Why To Choose us ?</div>
+        <div class="orangebox3">
+            <p>12k+<br>Students</p>
+        </div>
+        <div class="orangebox4">
+            <p>80+<br>Teachers</p>
+        </div>
+    </div>
+    <div class="wtcu">
+        <div class="wtcubox">
+            <div class="whytochooseus">Why to Choose us ?</div>
             <div class="chooseus">
                 <ul>
                     <li>Program Design an Implimentation<br> Strategy</li>
@@ -67,75 +56,93 @@
                     <li>Multimedia content for Social Media</li>
                 </ul>
             </div>
-            <div class="chooseimg"></div>
-        </div>
-        <div class="steam">What is<img class="steamtext" src="steamtext.png" alt=""><p>STEAM Education is an innovative approach to learning 
-            <br>that uses Science, Technology, Engineering, Arts, and Math 
-            <br>as access points for guiding student to inquiry, dialogue and
-            <br> critical thinking.</p></div>
-        <div class="steamq">?</div>
-        <div class="steamimg">
-            <div class="img"><img src="steamimg.png" alt=""></div>
-        </div>
-            <div class="youtube">
-            <div class="onyoutube">TIF on</div>
-            <div class="ytlogo"><img src="ytlogo.png" alt=""></div>
-            <div class="vid1"><iframe src="https://youtube.com/embed/NXUhJhKhHPc" width="500px" height="300px" frameborder="0"></iframe></div>
-            <div class="vid2"><iframe src="https://youtube.com/embed/ilHV8X4I8uQ" width="500px" height="300px" frameborder="0"></iframe></div>
-            <div class="knowus">Know us more through our</div>
-            <div class="workings">Excellent workings  !</div>
-        </div>
-        <div class="partners">
-            Our <p>Partners</p>
-            <div class="p1"><img src="p1.png" alt=""></div>
-            <div class="p2"><img src="p2.png" alt=""></div>
-            <div class="p3"><img src="p3.png" alt=""></div>
+            <img src="chooseus.png" class="cimg" alt="">
         </div>
     </div>
-    <div class="footer">
-        
-        <div class="contact">
-            <p class="contactus">Contact us</p>
-            <img class="callicon" src="call.png" alt="call icon">
-            <a href="tel:8867542773" class="phoneno" >+91 8867542773</a>
-            <img src="mail.png" alt="" class="mailicon">
-            <a href="tinkerhatfoundation@gmail.com" class="gmail">tinkerhatfoundation@gmail.com</a>
-            <img src="location.png" alt="location icon" class="locationicon">
-            <a href="https://www.google.com/maps/search/R+No.+1,+Ayurved+Niketan,+RC+Marg,+Chembur+(E),+Mumbai,+India+400074/@19.0540519,72.8852739,15z/data=!3m1!4b1" class="loaction">R No. 1, Ayurved Niketan, RC Marg,<br>Chembur (E), Mumbai, India 400074</a>
-            <div class="frame1"></div>
+    <div>
+        <div class="whatissteam">What is&nbsp<img src="steamtext.png" alt="">&nbsp?</div>
+        <div class="steam"><p>STEAM Education is an innovative approach to learning that uses<br> Science, Technology, Engineering, Arts, and Math as access points for<br> guiding student to inquiry, dialogue, and critical thinking.
+                          </p><img src="steamimg.png" alt="">
         </div>
-        
-        <div class="join">
-            <p class="joinusp">Join us</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfn1PhWvKZlona1aVtu-jY0K7jkPkRNyrfWlMsjwidUH1YJrg/viewform" class="partner">Partner with us</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1-0otd3-EseNGFMz5LFB-Un_f7K-NdVXtbGllAqR0HAnsAg/viewform" class="joinas">Join as Volunteer</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSiXU7dhQmcPCamhar-XcLf9h3FODM6kR8hgIMqsuNBGzKwQ/viewform" class="careers">careers</a>
-            <div class="frame2"></div>
-        </div>
-
-        <div class="sitemap">
-            <p class="sitemaps">Sitemaps</p>
-            <a href="index.html" class="home">Home</a>
-            <a href="whatwedo.html" class="whatwedo">What we do</a>
-            <a href="ourinnovations.html" class="ourino">Our innovations</a>
-            <a href="aboutus.html" class="abouts">About us</a>
-        </div>
-
-        
-
-        <div class="dark">
-            <p class="copyright">Copyright © Tinkerhat Innovation Foundation. All rights reserved.</p>
-            
-            <!-- Add font awesome icons -->
-            <div>
-                <a href="https://www.facebook.com/TinkerHatFoundation/" class="fa fa-facebook"></a> 
-                <a href="https://www.instagram.com/tif_india/" class="fa fa-instagram"></a> 
-                <a href="https://twitter.com/TiF_India" class="fa fa-twitter"></a> 
-            </div>
-            
-        </div>
-
     </div>
+    <div>
+        <div class="tifonyt">TIF on&nbsp;<img src="ytlogo.png" alt=""></div>
+        <div class="vid"><iframe src="https://youtube.com/embed/NXUhJhKhHPc" width="500px" height="300px" frameborder="0"></iframe><iframe src="https://youtube.com/embed/ilHV8X4I8uQ" width="500px" height="300px" frameborder="0"></iframe><p class="vidp">Know us more Through our&nbsp;</p></div>
+    </div>
+    <div class="partners">
+        <p>Our&nbsp;</p><div class="pimgs"><img src="p1.png" alt=""><img src="p2.png" alt=""><img src="p3.png" alt=""></div>
+    </div>
+
+    <footer>
+        <div class="rowprimary">
+          <div class="contactus">
+            <h3>Contact us</h3>
+            <ul id="contact">
+        
+                <li>
+                 <img src="call.png" alt=""><a href="tel:8867542773">&nbsp;&nbsp;+91 8867542773</a>
+                </li>
+                <li>
+                 <img src="mail.png" alt=""><a href="tinkerhatfoundation@gmail.com">&nbsp;&nbsp;tinkerhatfoundation@gmail.com</a>
+                </li>
+                <li>
+                 <img src="location.png" alt=""><a href="https://www.google.com/maps/search/R+No.+1,+Ayurved+Niketan,+RC+Marg,+Chembur+(E),+Mumbai,+India+400074/@19.0540519,72.8852739,15z/data=!3m1!4b1">&nbsp;&nbsp;R No. 1, Ayurved Niketan, RC Marg,<br>Chembur (E), Mumbai, India 400074</a>
+                </li>
+               </ul>
+          </div>
+          <div class="joinus">
+            <h3>Join us</h3>
+            <ul id="joinus">
+        
+                <li>
+                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfn1PhWvKZlona1aVtu-jY0K7jkPkRNyrfWlMsjwidUH1YJrg/viewform">Partner with us</a>
+                </li>
+                <li>
+                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSiXU7dhQmcPCamhar-XcLf9h3FODM6kR8hgIMqsuNBGzKwQ/viewform">Join as Volunteer</a>
+                </li>
+                <li>
+                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1-0otd3-EseNGFMz5LFB-Un_f7K-NdVXtbGllAqR0HAnsAg/viewform">Careers</a>
+                </li>
+               </ul>
+          </div>
+          <div class="sitemaps">
+            <h3>Sitemaps</h3>
+            <ul id="sitemaps">
+        
+                <li>
+                 <a href="index.html">Home</a>
+                </li>
+                <li>
+                 <a href="#cookies-policy">What we do</a>
+                </li>
+                <li>
+                 <a href="#terms-of-services">Our Innovations</a>
+                </li>
+                <li>
+                 <a href="#support">About us</a>
+                </li>
+               </ul>
+          </div>
+        </div>        
+     
+        </footer>
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "240px";
+            }
+
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
  
 </body>
 </html>
