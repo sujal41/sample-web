@@ -8,35 +8,36 @@
 
 </head>
 <body>
-    <div class="main">
-        <div class="head">
-            <div class="navbar">
-                <div class="icon"></div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="whatwedo.html">What we do</a></li>
-                        <li><a href="ourinnovations.html">Our Innovations</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                    </ul>
-                </div>
-                <div class="joinus">
-                    <a href="aboutus.html">Join us</a>
-                </div>
-            </div>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.svg" alt="" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="whatwedo.html">What we do</a></li>
+                    <li><a href="ourinnovations.html">Our Innovations</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li id="join"><a href="#">Join us</a></li>
+                </ul>
+                
+            </nav>
+            <img src="menu.png" class="menu-icon" onclick="togglemenu()">
         </div>
     </div>
-    <div ><img class="ourinnobgimg" src="ourinno.png" alt=""></div>
-    <div class="csri"><p><br><br><br><br><br><br>Centre for Social Research & Impacts (CSRi) is an initiative by TIF to <br>provide consulting services to impact organisations. Our services are <br>powered by knowledge and impact to achieve the equilibrium to our <br>work. We are driven by new-age thinking, and value aligned <br>networking and need based implementation, with community at the <br>core.
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;We work with CSR foundations,NGOs, philanthropy initiatives, <br>social enterprises, and government departments by providing them <br>with hands-on support to plan, strategies, implement, and scale social <br>development programs.</p>
-        <img class="csriimg" src="csri.png" alt="">
+    <div class="ourinnobgimg"><img  src="ourinno.png" alt=""></div>
+    <div class="csri">
+        <div class="csrip">
+            <p>Centre for Social Research & Impacts (CSRi) is an initiative by TIF to provide consulting services to impact organisations. Our services are powered by knowledge and impact to achieve the equilibrium to our work. We are driven by new-age thinking, and value aligned networking and need based implementation, with community at the core.
+        We work with CSR foundations,NGOs, philanthropy initiatives, social enterprises, and government departments by providing them with hands-on support to plan, strategies, implement, and scale social development programs.
+            </p>
+        </div>
+        <img src="csri.png" alt="">
     </div>
     <div class="ourservices">
-        <div class="os1">Our</div>
-        <div class="os2">Services</div>
+        <h3>Our&nbsp;Services</h3>
     </div>
 
-    <div class="container">
+    <div class="containerr">
         <div class="card">
             <div class="face face1">
                 <div class="content">
@@ -90,48 +91,22 @@
     </div>
 
     
-    <div class="footer">
-        
-        <div class="contact">
-            <p class="contactus">Contact us</p>
-            <img class="callicon" src="call.png" alt="call icon">
-            <a href="tel:8867542773" class="phoneno" >+91 8867542773</a>
-            <img src="mail.png" alt="" class="mailicon">
-            <a href="tinkerhatfoundation@gmail.com" class="gmail">tinkerhatfoundation@gmail.com</a>
-            <img src="location.png" alt="location icon" class="locationicon">
-            <a href="https://www.google.com/maps/search/R+No.+1,+Ayurved+Niketan,+RC+Marg,+Chembur+(E),+Mumbai,+India+400074/@19.0540519,72.8852739,15z/data=!3m1!4b1" class="loaction">R No. 1, Ayurved Niketan, RC Marg,<br>Chembur (E), Mumbai, India 400074</a>
-            <div class="frame1"></div>
-        </div>
-        
-        <div class="join">
-            <p class="joinusp">Join us</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfn1PhWvKZlona1aVtu-jY0K7jkPkRNyrfWlMsjwidUH1YJrg/viewform" class="partner">Partner with us</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1-0otd3-EseNGFMz5LFB-Un_f7K-NdVXtbGllAqR0HAnsAg/viewform" class="joinas">Join as Volunteer</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSiXU7dhQmcPCamhar-XcLf9h3FODM6kR8hgIMqsuNBGzKwQ/viewform" class="careers">careers</a>
-            <div class="frame2"></div>
-        </div>
 
-        <div class="sitemap">
-            <p class="sitemaps">Sitemaps</p>
-            <a href="index.html" class="home">Home</a>
-            <a href="whatwedo.html" class="whatwedo">What we do</a>
-            <a href="ourinnovations.html" class="ourino">Our innovations</a>
-            <a href="aboutus.html" class="abouts">About us</a>
-        </div>
+    <script>
 
-        
+        var menuList = document.getElementById("menuList");
 
-        <div class="dark">
-            <p class="copyright">Copyright © Tinkerhat Innovation Foundation. All rights reserved.</p>
-            
-            <!-- Add font awesome icons -->
-            <div>
-                <a href="https://www.facebook.com/TinkerHatFoundation/" class="fa fa-facebook"></a> 
-                <a href="https://www.instagram.com/tif_india/" class="fa fa-instagram"></a> 
-                <a href="https://twitter.com/TiF_India" class="fa fa-twitter"></a> 
-            </div>
-            
-        </div>
+        menuList.style.maxHeight = "0px";
 
-    </div>
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "240px";
+            }
+
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
 </body>
