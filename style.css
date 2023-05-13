@@ -208,6 +208,7 @@ nav ul li a:hover{
 }
 
 .whatissteam{
+    width: auto;
     color: #000;
     float: left;
     display: flex;
@@ -885,6 +886,11 @@ li img{
     margin-right: auto;
 }
 
+.ourservices h3::after{
+    content: "Services";
+    color: #e74300;
+}
+
 
 
 
@@ -893,16 +899,16 @@ li img{
     position: relative;
     display: flex;
     margin-bottom: 100px;
-    
-    margin-left: 10%;
     justify-content: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .containerr .card{
     position: relative;
     cursor: pointer;
-    margin-left: 100px;
 }
 
 .containerr .card .face{
@@ -972,32 +978,56 @@ li img{
     padding: 0;
 }
 
-.aboutheading{
+.aboutheading h3{
     margin-top: 5%;
-    width: 1000px;
+    
     font-size: 50px;
     font-weight: bolder;
     margin-left: 5%;
     color: #000;
     
 }
-.aboutheading::before{
-    content: "About us";
+.aboutheading h3::after{
+    content: "us";
     color: #e74300;
 }
 
 .aboutp{
-    width: 40%;
+    width: auto;
     height: auto;
     margin-top: 5%;
     margin-left: 5%;
+    display: flex;
 }
 
-.aboutusimg img{
+.aboutp p{
+    width: 40%;
+}
 
+.aboutp img{
+    width: 40%;
+    height: auto;
     float: right;
-    margin-top: -15%;
-    margin-right: 5%;
+    
+    margin-left: 10%;
+}
+
+.mission{
+    margin-top: 10%;
+}
+
+.mission h3{
+    margin-top: 5%;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 5%;
+    color: #e74300;
+}
+.mission p{
+    width: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .ourteam{
@@ -1009,15 +1039,18 @@ li img{
     margin-left: 5%;
     font-size: 40px;
 }
+.ourteam h1::after{
+    content: "Team";
+    color: #e74300;
+}
 
 .team1{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .team1 img{
@@ -1039,13 +1072,12 @@ li img{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    justify-content: space-between;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.team2 img{
+.ourteam .team2 img{
     border-radius: 50%;
     width: 150px;
     height: auto;
@@ -1084,7 +1116,6 @@ li img{
     nav ul li{
         display: block;
         margin-top: 10px;
-        margin-bottom: 10px;
     }
 
     nav ul li a{
@@ -1099,7 +1130,6 @@ li img{
     #menuList{
         overflow: hidden;
         transition: 0.5s;
-        
     }
 
     .homeimg{
@@ -1550,53 +1580,61 @@ li img{
     margin-top: 5%;
    }
 
+   .ourservices h3{
+    font-size: 50%;
+   }
 
    .face.face1{
-    width: 100px;
+    width: 300px;
     height: auto;
    }
    
 
     .containerr{
-        width: 00px;
-        position: relative;
-        display: flex;
         margin-bottom: 100px;
-        flex-direction: column;
-        margin-left: 0px;
         justify-content: center;
+        justify-content: space-evenly;
+        width: 10%;
     }
-    .containerr .card .face{
-        width: 100px;
-        height: auto;
 
+    .content h3{
+        font-size: 10px ;
+
+    }
+
+    .container .card{
+        margin-left: 0px;
+    }
+
+    .containerr .card .face{
+        width: 17rem;
+        height: 15rem;
     }
 
     .aboutheading{
-        font-size: 130%;
+        font-size: 100%;
+    }
+
+    .aboutheading h3{
+        font-size: 100%;
     }
 
     .aboutp{
-        font-size: 90%;
-        display: block;
+        display: grid;
+    }
+    .aboutp p{
+        font-size: 50%;
         margin-left: 5%;
-        width: 90%;
+        margin-right: 5%;
         float: left;
         margin-bottom: 5%;
+        width: auto;
     }
-    .aboutusimg img{
-        width: 50%;
-        height: auto;
-        float: none;
+    .aboutp img{
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-    .aboutusimg{
-        text-align: center;
-        margin-bottom: 20%;
-        display: block;
-        margin-top: 35%;
+        margin-top: 5%;
     }   
 
     .ourteam{
@@ -1650,6 +1688,20 @@ li img{
     }
     .team2 img{
         border-radius: 50%;
-        width: 50%;
+        width: 10px;
+        height: 10px;
     }
+    .ourteam{
+        width: 50%;
+        height: auto;
+    }
+
+    .mission h3{
+        font-size: 100%;
+    }
+
+    .mission p{
+        font-size: 50%;
+    }
+
 }
