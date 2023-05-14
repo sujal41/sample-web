@@ -458,17 +458,20 @@ li img{
 }
 
 .ofbox1 img{
-    width: 60%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 20%;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .ofbox1 p{
-    text-align: center;
     position: absolute;
-    margin-top: 85%;
-    margin-left: -10rem; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .ofbox2{
@@ -485,17 +488,20 @@ li img{
 }
 
 .ofbox2 img{
-    width: 60%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 20%;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .ofbox2 p{
-    text-align: center;
     position: absolute;
-    margin-top: 85%;
-    margin-left: 2.4rem; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .ofbox3{
@@ -512,17 +518,20 @@ li img{
 }
 
 .ofbox3 img{
-    width: 60%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 20%;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .ofbox3 p{
-    text-align: center;
     position: absolute;
-    margin-top: 85%;
-    margin-left: 6rem; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .ofbox4{
@@ -539,17 +548,20 @@ li img{
 }
 
 .ofbox4 img{
-    width: 60%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 20%;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .ofbox4 p{
-    text-align: center;
     position: absolute;
-    margin-top: 85%;
-    margin-left: 6rem; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .keyfeatures h3{
@@ -579,16 +591,19 @@ li img{
 
 .kfbox1 img{
     width: 50%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .kfbox1 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 75%;
-    margin-left: -50%;
 }
 
 .kfbox2{
@@ -606,16 +621,19 @@ li img{
 
 .kfbox2 img{
     width: 50%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .kfbox2 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 75%;
-    margin-left: -47%;
 }
 
 
@@ -634,16 +652,19 @@ li img{
 
 .kfbox3 img{
     width: 50%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .kfbox3 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 75%;
-    margin-left: -55%;
 }
 
 
@@ -662,16 +683,19 @@ li img{
 
 .kfbox4 img{
     width: 50%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .kfbox4 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 75%;
-    margin-left: -45%;
 }
 
 .kfbox5{
@@ -689,16 +713,19 @@ li img{
 
 .kfbox5 img{
     width: 50%;
-    height: 50%;
-    margin-top: 20%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .kfbox5 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 75%;
-    margin-left: -50%;
 }
 
 .benefits{
@@ -729,16 +756,19 @@ li img{
 
 .bfbox1 img{
     width: 50%;
-    height: 50%;
-    margin-top: 15%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bfbox1 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 75%;
-    margin-left: -55%;
 }
 
 .bfbox2{
@@ -756,18 +786,21 @@ li img{
 
 .bfbox2 img{
     width: 50%;
-    height: 50%;
-    margin-top: 15%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bfbox2 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 70%;
-    margin-left: -65%;
+    width: 100%;
 }
-
 
 .bfbox3{
     display: flex;
@@ -784,18 +817,21 @@ li img{
 
 .bfbox3 img{
     width: 50%;
-    height: 50%;
-    margin-top: 15%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bfbox3 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 70%;
-    margin-left: -70%;
+    width: 100%;
 }
-
 
 .bfbox4{
     display: flex;
@@ -812,16 +848,20 @@ li img{
 
 .bfbox4 img{
     width: 50%;
-    height: 50%;
-    margin-top: 15%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bfbox4 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 75%;
-    margin-left: -50%;
+    width: 100%;
 }
 
 .bfbox5{
@@ -839,16 +879,20 @@ li img{
 
 .bfbox5 img{
     width: 50%;
-    height: 50%;
-    margin-top: 15%;
-    margin-left: 25%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bfbox5 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    display: block;
-    margin-top: 70%;
-    margin-left: -65%;
+    width: 100%;
 }
 
 
@@ -1358,9 +1402,12 @@ li img{
     margin-left: 40%;
    }
    .ofbox1 p{
-    font-size: 5px;
-    margin-left: -60%;
-    top: 10%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
    .ofbox2{
@@ -1369,11 +1416,12 @@ li img{
     margin-left: 82%;
    }
    .ofbox2 p{
-    font-size: 5px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 17%;
-    margin-right: auto;
-    margin-top: 90%;
+    font-size: 10%;
    }
 
    .ofbox3{
@@ -1382,9 +1430,12 @@ li img{
     margin-left: 124%;
    }
    .ofbox3 p{
-    font-size: 5px;
-    margin-left: 40%;
-    top: 8%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
    .ofbox4{
@@ -1393,9 +1444,12 @@ li img{
     margin-left: 166%;
    }
    .ofbox4 p{
-    font-size: 5px;
-    margin-left: 35%;
-    top: 5%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
    .keyfeatures h3{
@@ -1408,8 +1462,12 @@ li img{
    }
 
    .kfbox1 p{
-    font-size: 5px;
-    margin-left: -57%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
    
@@ -1419,8 +1477,12 @@ li img{
    }
 
    .kfbox2 p{
-    font-size: 5px;
-    margin-left: -57%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
    
@@ -1428,16 +1490,14 @@ li img{
     width: 15%;
     height: 10%;
    }
-   .kfbox3 img{
-    width: 50%;
-    height: 50%;
-    margin-top: 5%;
-    margin-left: 28%;
-   }
+
    .kfbox3 p{
-    font-size: 5px;
-    margin-left: -62%;
-    margin-top: 60%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
    
@@ -1447,8 +1507,12 @@ li img{
    }
 
    .kfbox4 p{
-    font-size: 5px;
-    margin-left: -47%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
    
@@ -1458,8 +1522,12 @@ li img{
    }
 
    .kfbox5 p{
-    font-size: 5px;
-    margin-left: -57%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
    .benefits{
@@ -1473,82 +1541,71 @@ li img{
     width: 15%;
     height: 12%;
    }
-   .bfbox1 img{
-    width: 40%;
-    height: 40%;
-    margin-top: 5%;
-    margin-left: 28%;
-   }
+   
 
    .bfbox1 p{
-    font-size: 5px;
-    margin-left: -57%;
-    margin-top: 70%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
  
    .bfbox2{
     width: 15%;
     height: 12%;
    }
-   .bfbox2 img{
-    width: 40%;
-    height: 40%;
-    margin-top: 5%;
-    margin-left: 28%;
-   }
+   
 
    .bfbox2 p{
-    font-size: 5px;
-    margin-left: -67%;
-    margin-top: 70%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
    .bfbox3{
     width: 15%;
     height: 12%;
    }
-   .bfbox3 img{
-    width: 40%;
-    height: 40%;
-    margin-top: 5%;
-    margin-left: 28%;
+   
+   .bfbox3 p{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
-   .bfbox3 p{
-    font-size: 5px;
-    margin-left: -67%;
-    margin-top: 70%;
-   }
    .bfbox4{
     width: 15%;
     height: 12%;
    }
-   .bfbox4 img{
-    width: 40%;
-    height: 40%;
-    margin-top: 5%;
-    margin-left: 28%;
-   }
 
    .bfbox4 p{
-    font-size: 5px;
-    margin-left: -47%;
-    margin-top: 70%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
+
    .bfbox5{
     width: 15%;
     height: 12%;
    }
-   .bfbox5 img{
-    width: 40%;
-    height: 40%;
-    margin-top: 5%;
-    margin-left: 28%;
-   }
 
    .bfbox5 p{
-    font-size: 5px;
-    margin-left: -67%;
-    margin-top: 70%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 10%;
    }
 
 
